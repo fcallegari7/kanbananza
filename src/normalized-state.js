@@ -16,8 +16,8 @@ export const lists = {
 };
 
 export const users = {
-  entities: normalizedLists.entities.users,
-  ids: normalizedLists.result,
+  entities: normalizedUsers.entities.users,
+  ids: normalizedUsers.result,
 };
 
 export const cards = {
