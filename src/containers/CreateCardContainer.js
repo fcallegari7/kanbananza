@@ -17,7 +17,7 @@ const mapDispatchToProps = (dispatch) => {
         ...cardData,
       };
       dispatch({
-        type: 'CARD_CREATED',
+        type: 'CARD_CREATE',
         payload: { card, listId, cardId },
       });
     },
